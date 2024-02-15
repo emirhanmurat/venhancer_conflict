@@ -10,7 +10,7 @@ function TaskManager() {
       if (taskIndex !== -1) {
         this.tasks[taskIndex].completed = true;
       } else {
-        console.log("Woods not found!");
+        console.log("Coconut not found!");
       }
     };
    
