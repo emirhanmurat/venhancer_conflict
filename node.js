@@ -10,12 +10,12 @@ function TaskManager() {
       if (taskIndex !== -1) {
         this.tasks[taskIndex].completed = true;
       } else {
-        console.log("fish");
+        console.log("Fish not found!");
       }
     };
    
     this.viewTasks = function() {
-      console.log("Tasks:");
+      console.log("Fishes:");
       this.tasks.forEach(task => {
         console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending'}`);
       });
